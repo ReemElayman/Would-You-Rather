@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.options{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.options2{
+ 
+  font-size: 20px;
+  text-align: left;
+ 
+
+}
+
+
+
+#title1{
+  color: black;
+  font-size: 25px;
+}
+
+
+#title2{
+  color: #663AB6;
+  font-size: 20px;
+}
+
+h1.newquestion{
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #663AB6;;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.cardavatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.useravatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.cardtext{
+
+    width: auto;
+    border: 2px solid #663AB6;
+  
+    padding: 7px;
+    margin: 10px;
+  
+}
+
+.vote{
+  color: #663AB6;
+}
+
+
+.cardtextfilled{
+
+  width: auto;
+  border: 2px solid #663AB6;
+  background-color: #463070;
+  padding: 7px;
+  margin: 10px;
+
+}
+
+.cardcircle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background: #663AB6;
+  margin-left: 45px;
+}
+
+
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-child {
+    flex: 1;
+    margin-bottom: 7px;
+  
+}  
+
+.flex-child:first-child {
+    margin-right: 8px;
+    font-size: 20px;
+    margin-top: 7px;
+
+}
+
+div#reem  ul {
+ 
+  width:500px;
+  margin: 5px 20px 0 100x;
+
+}
+
+
+div#reem{
+  margin-left: 420px;
+  margin-bottom: 20px;
+}
+
+div#reem  ul  li {
+  border-bottom: 2px solid white;
+  display: inline-block;
+  font-size: 16px;
+  padding: 7px 4px;
+}
+div#reem  ul  li button {
+  border-bottom: 4px solid #663AB6;
+  background: var(--light-color);
+  color: black;
+}
+div#reem  ul  li button.active {
+  border-bottom: 4px solid #663AB6;
+  color: white;
+  background: #463070;
+  
+}
+div#reem ul li  button:hover{
+
+  background: #463070;
+  transition: .5s;
+}
+
+
+/* this part of code is from https://www.darkcode.info/2019/10/create-404-error-page-using-html-css.html*/
+
+.notfound{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #343434
+}
+
+.notfound h1{
+  font-size: 160px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+  -webkit-text-fill-color: #663AB6 ;
+
+}
+
+
+
+.progress {
+  width: 100%;
+  max-width: 300px;
+  height: 20px;
+  background: #e1e4e8;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+  
+  .progress-bar{
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg,#463070 ,#663AB6 17%, #b34bff 34%);
+    background-size: 300% 100%;
+  }
+
+
+
+
